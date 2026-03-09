@@ -21,6 +21,8 @@ This guide covers installation using **Heroic Game Launcher** (recommended).
    * *Tip: You can easily install this using the **ProtonPlus** app.*
 5. **Run:** Launch the app, then use the Netmarble Launcher to download the full game data.
 
+- You can also link the path to the 7DSGC.exe to directly run the Game AFTER installing it from the LAUNCHER (/home/$USER/Games/Heroic/Prefixes/default/Netmarble - 7DSGC/drive_c/Program Files/Netmarble/Netmarble Game/7dsgb/7dsgc.exe)
+
 ### ⚙️ Required Tweaks / Launch Options
 * **OS Tested:** Nobara Linux 43 (KDE Plasma)
 * **Kernel:** 6.19.5+
