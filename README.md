@@ -13,7 +13,7 @@ A community-driven collection of guides for installing and playing niche Windows
 * [Goddess of Victory: Nikke](https://gist.github.com/d-kja/74633df5f2d6e55cb2a77c3f9d6acece#file-nikke-linux-md)
 *
 ## 📥 Multi-Anime Games Projects
-* Check out: https://github.com/an-anime-team/anime-games-launcher/releases/tag/v2.0.0
+* Check out: https://github.com/an-anime-team/anime-games-launcher/
 * Check out: https://github.com/TwintailTeam/TwintailLauncher
 
 ## 🚀 How to Use
