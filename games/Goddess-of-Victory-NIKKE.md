@@ -1,131 +1,88 @@
-# GODDESS OF VICTORY: NIKKE (Linux Guide)
+# GODDESS OF VICTORY: NIKKE (PC Client)
 
-This guide covers how to run **GODDESS OF VICTORY: NIKKE** on Linux using Wine/Proton-based methods.
+**Status:** 🟡 Playable, but updates sometimes break the setup, forcing a reinstall.
 
----
-
-## Requirements
-
-- A Linux distribution
-- NIKKE Windows installer (official): https://nikke-en.com/
+### 📋 Overview
+* **Developer/Publisher:** SHIFT UP / Level Infinite  
+* **Store Link:** https://nikke-en.com/  
+* **Anti-Cheat:** Anti-Cheat Expert (ACE)
 
 ---
 
-## Path: using Faugus Launcher + DW Proton
+### 🛠️ Installation Steps
+This guide covers installation using **Faugus Launcher + DW-Proton**
 
-> Recommended method (simple + no Windows required)
+1. **Install Faugus Launcher:**  
+   * Install via Flatpak or your package manager (`pacman`, `dnf`, etc.)
 
----
+2. **Install DW-Proton:**  
+   * Install ProtonPlus → https://protonplus.vysp3r.com/#download  
+   * Open ProtonPlus and install **DW-Proton Latest**  
+   * Close ProtonPlus  
+   * *Faugus will automatically detect the runner*
 
-### 1. Install Faugus Launcher
+3. **Create Prefix:**  
+   * Open Faugus → click `+`  
+   * Type: **Windows Game** (default)  
+   * Name: `Goddess of Victory NIKKE`  
+   * Prefix:  
+     * Click 🔍 and choose location (recommended: game drive)  
+     * *Auto-filled after naming, leave PATH blank for now*  
+   * Proton: **DW-Proton Latest**
 
-Install via:
-- Flatpak  
-- or your package manager (`pacman`, `dnf`, `yum`, etc.)
+4. **Install Dependencies (Winetricks):**  
+   * Go to **Tools → Winetricks**  
+   * Select: *default wineprefix*  
 
----
+   **Fonts (Required):**  
+   * `arial` or `allfonts`  
 
-### 2. Install DW-Proton Runner
+   **DLLs (Optional but recommended):**  
+   * `mfc42`  
+   * `vcredist2012` or `vcrun2012`  
+   * `vcredist2022` or `vcrun2022`  
 
-**Easiest method (recommended):**
+5. **Install the Game:**  
+   * Tools tab → **RUN**  
+   * Select the NIKKE installer `.exe`  
+   * Wait for full download/install  
 
-1. Install ProtonPlus  
-   https://protonplus.vysp3r.com/#download  
-2. Open ProtonPlus  
-3. Install **DW-Proton Latest**  
-4. Close ProtonPlus  
-
-> Faugus automatically detects installed runners
-
----
-
-### 3. Create Prefix (Wineprefix)
-
-1. Open **Faugus Launcher**
-2. Click **"+" (Add)**
-
-**Game/App Tab**
-- Type: **Windows Game** (default)
-
-**Title Tab**
-- Name: `Goddess of Victory NIKKE`
-
-**Prefix Tab**
-- Click 🔍 and choose location (e.g., game drive)
-
-> Auto-filled after setting name  
-> Leave **PATH blank for now**
-
-**Proton Tab**
-- Select: **DW-Proton Latest**
-
-**Shortcut Tab**
-- Optional
-
----
-
-### 4. Install Dependencies (Winetricks)
-
-1. Go to **Tools → Winetricks**
-2. Select: **default wineprefix**
-
-#### Fonts (Required)
-- `arial`  
-- or `allfonts`
-
-#### DLLs (Optional but Recommended)
-- `mfc42`
-- `vcredist2012` or `vcrun2012`
-- `vcredist2022` or `vcrun2022`
-
-Close Winetricks when done
-
----
-
-### 5. Install the Game
-
-1. Go to **Tools tab**
-2. Click **RUN**
-3. Select the NIKKE installer `.exe`
-4. Wait for full download/install
-
----
-
-### 6. Add Launcher
-
-1. Return to **Game/App tab**
-2. PATH → 🔍 → navigate to:
-
+6. **Configure Launcher Path:**  
+   * Go back to Game/App tab  
+   * PATH → 🔍 → set to:  
 
 ```
 <prefix-path>/drive_c/NIKKE/Launcher/nikke_launcher.exe
 ```
 
-3. Select executable  
-4. Enable shortcuts if desired  
-5. Click **OK**
+
+   * Enable shortcuts if needed → OK  
+
+7. **Run:**  
+   * Launch via Faugus  
+   * Use the launcher to start/update the game  
 
 ---
 
-## Done ✅
-
-Launch the game through **Faugus + DW-Proton**
-
----
-
-## Notes
-
-- Updates are handled through the official launcher  
-- No Windows installation required for this method  
-- Works similarly to other Proton-based launchers (Lutris, Bottles, etc.) 
+### ⚙️ Required Tweaks / Launch Options
+* **Proton Version:** DW-Proton Latest  
+* **Recommended Setup:**  
+  * Works on most modern distros (Arch-based, Fedora-based, etc.)  
+* **Storage Tip:**  
+  * Place prefix on a secondary/game drive to save space  
 
 ---
 
-## Future Paths (Planned)
-
-- Path 2: Miniloader  
-- Path 3: Lutris  
-- Path 4: DW Launcher  
-- Path 5: Steam (DW-Proton)
+### ⚠️ Known Issues & Fixes
+* **Launcher Required:** Game must be launched via the official launcher (no direct `.exe` first-run)  
+* **Paths:** If using custom prefix location, ensure PATH matches your setup  
+* **Winetricks:** Missing fonts may cause UI issues  
 
 ---
+
+### 📸 Proof of Gameplay
+*screenshots when i have the time*
+
+---
+
+*Guide contributed by: @Brian2po*
