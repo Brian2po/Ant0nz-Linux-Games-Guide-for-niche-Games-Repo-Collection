@@ -81,7 +81,10 @@ This guide covers installation using **Faugus Launcher + DW-Proton**
 ---
 
 ### 📸 Proof of Gameplay
-*screenshots when i have the time*
+
+<img width="1492" height="819" alt="Screenshot_20260502_024705" src="https://github.com/user-attachments/assets/f557ef31-6938-40ef-89cc-cdd2890f11d4" />
+
+<img width="1915" height="1077" alt="Screenshot_20260502_025006" src="https://github.com/user-attachments/assets/67f7d3f7-3e1e-4023-92cb-773e975b1804" />
 
 ---
 
